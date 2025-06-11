@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/etFullName" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Full Name"
+            android:backgroundTint="@color/blue2" android:textColor="@color/black"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText android:id="@+id/etGrade" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Grade Level (e.g., grade1)"
+            android:backgroundTint="@color/blue2" android:textColor="@color/black"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText android:id="@+id/etSection" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Section (e.g., A)"
+            android:backgroundTint="@color/blue2" android:textColor="@color/black"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText android:id="@+id/etGuardianName" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Guardian Name"
+            android:backgroundTint="@color/blue2" android:textColor="@color/black"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText android:id="@+id/etGuardianPhone" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Guardian Phone"
+            android:inputType="phone" android:backgroundTint="@color/blue2"
+            android:textColor="@color/black" android:layout_marginBottom="16dp"/>
+
+        <EditText android:id="@+id/etAddress" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Address"
+            android:backgroundTint="@color/blue2" android:textColor="@color/black"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText android:id="@+id/etBirthDate" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Birth Date (YYYY-MM-DD)"
+            android:backgroundTint="@color/blue2" android:textColor="@color/black"
+            android:layout_marginBottom="16dp"/>
+
+        <Spinner android:id="@+id/spinnerGender" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginBottom="24dp"/>
+
+        <Button android:id="@+id/btnSubmit" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Submit"
+            android:backgroundTint="@color/green" android:textColor="@color/black"/>
+    </LinearLayout>
+</ScrollView>
+

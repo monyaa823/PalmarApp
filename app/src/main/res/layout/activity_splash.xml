@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="238dp"
+        android:layout_height="194dp"
+        android:layout_marginTop="100dp"
+
+        app:layout_constraintBottom_toTopOf="@id/textLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/splashimg" />
+
+    <LinearLayout
+        android:id="@+id/textLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img">
+
+
+        <TextView
+            android:id="@+id/letterM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/m"
+            android:textColor="@color/green"
+            android:textSize="40sp" />
+
+
+        <TextView
+            android:id="@+id/letterY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/y"
+            android:textColor="@color/blue"
+            android:textSize="40sp" />
+
+
+        <TextView
+            android:id="@+id/letterS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/s"
+            android:textColor="@color/pink"
+            android:textSize="40sp" />
+
+
+        <TextView
+            android:id="@+id/letterC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/c"
+            android:textColor="@color/yellow"
+            android:textSize="40sp" />
+
+
+        <TextView
+            android:id="@+id/letterH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/h"
+            android:textColor="@color/green"
+            android:textSize="40sp" />
+
+
+        <TextView
+            android:id="@+id/letterO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/o"
+            android:textColor="@color/blue"
+            android:textSize="40sp" />
+
+
+        <TextView
+            android:id="@+id/letterO2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/o"
+            android:textColor="@color/pink"
+            android:textSize="40sp" />
+
+
+        <TextView
+            android:id="@+id/letterL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/l"
+            android:textColor="@color/yellow"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/letterA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/a"
+            android:textColor="@color/green"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/letterP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/p"
+            android:textColor="@color/blue"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/letterP2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/p"
+            android:textColor="@color/pink"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

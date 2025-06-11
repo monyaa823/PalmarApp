@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!-- Grade Spinner -->
+        <Spinner
+            android:id="@+id/spinnerGrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue2"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Day Spinner -->
+        <Spinner
+            android:id="@+id/spinnerDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue2"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Subject Spinner -->
+        <Spinner
+            android:id="@+id/spinnerSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue2"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Start Time -->
+        <Button
+            android:id="@+id/btnStartTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pick Start Time"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvStartTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- End Time -->
+        <Button
+            android:id="@+id/btnEndTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pick End Time"
+            android:backgroundTint="@color/pink"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvEndTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Add to Day's Schedule -->
+        <Button
+            android:id="@+id/btnAddToList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add to Day's Schedule"
+            android:backgroundTint="@color/yellow"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- RecyclerView -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Schedule"
+            android:backgroundTint="@color/blue"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
