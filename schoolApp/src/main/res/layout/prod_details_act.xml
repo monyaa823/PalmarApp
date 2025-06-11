@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/imgProduct"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/bag"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvProductDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Description"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnAddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to Cart"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnViewCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Cart"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnGoBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
